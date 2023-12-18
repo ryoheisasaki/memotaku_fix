@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import RealmSwift
 
-class CellModel {
+class MainCellModel: Object {
     
     @objc dynamic var id: String = UUID().uuidString
     
@@ -15,7 +16,13 @@ class CellModel {
     @objc dynamic var title: String = ""
     
     // 日時
-    @objc dynamic var time: String = "20XX/YY/ZZ"
+    @objc dynamic var date: Date = Date()
     
+    //各サイズ
+    @objc dynamic var itemSizeModel: ItemSizeModel? 
     
+    override static func primaryKey() -> String? {
+        return "id"
+        
+    }
 }
