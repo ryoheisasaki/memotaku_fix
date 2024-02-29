@@ -5,7 +5,6 @@
 //  Created by 佐々木遼平 on 2023/09/22.
 //
 
-//push練習
 
 import Foundation
 import UIKit

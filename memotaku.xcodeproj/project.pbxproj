@@ -22,12 +22,12 @@
 		F94F6EF32ABCF5F200884915 /* memotakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EF22ABCF5F200884915 /* memotakuTests.swift */; };
 		F94F6EFD2ABCF5F200884915 /* memotakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EFC2ABCF5F200884915 /* memotakuUITests.swift */; };
 		F94F6EFF2ABCF5F200884915 /* memotakuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6EFE2ABCF5F200884915 /* memotakuUITestsLaunchTests.swift */; };
-		F94F6F0C2AC0F4FE00884915 /* miss.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F0B2AC0F4FE00884915 /* miss.storyboard */; };
+		F94F6F0C2AC0F4FE00884915 /* sab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F0B2AC0F4FE00884915 /* sab.storyboard */; };
 		F94F6F0F2AC5173600884915 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */; };
 		F94F6F102AC5173600884915 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F0E2AC5173600884915 /* MainTableViewCell.xib */; };
 		F94F6F122ACA0DA500884915 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F112ACA0DA500884915 /* Calculator.swift */; };
 		F94F6F232ACA15B700884915 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F192ACA0E0F00884915 /* CalculatorTests.swift */; };
-		F94F6F262ACAC96D00884915 /* miss2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F252ACAC96D00884915 /* miss2.swift */; };
+		F94F6F262ACAC96D00884915 /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F252ACAC96D00884915 /* DismissKeyboard.swift */; };
 		F94F6F282ACAE85200884915 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F272ACAE85200884915 /* Circle.swift */; };
 		F94F6F2E2ACC2ED000884915 /* Circle.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94F6F2D2ACC2ED000884915 /* Circle.xib */; };
 		F94F6F302AD41FC600884915 /* MainCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94F6F2F2AD41FC600884915 /* MainCellModel.swift */; };
@@ -88,13 +88,13 @@
 		F94F6EF82ABCF5F200884915 /* memotakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memotakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F6EFC2ABCF5F200884915 /* memotakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memotakuUITests.swift; sourceTree = "<group>"; };
 		F94F6EFE2ABCF5F200884915 /* memotakuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memotakuUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F94F6F0B2AC0F4FE00884915 /* miss.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = miss.storyboard; sourceTree = "<group>"; };
+		F94F6F0B2AC0F4FE00884915 /* sab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sab.storyboard; sourceTree = "<group>"; };
 		F94F6F0D2AC5173600884915 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		F94F6F0E2AC5173600884915 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		F94F6F112ACA0DA500884915 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		F94F6F172ACA0E0F00884915 /* CaluculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaluculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94F6F192ACA0E0F00884915 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
-		F94F6F252ACAC96D00884915 /* miss2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miss2.swift; sourceTree = "<group>"; };
+		F94F6F252ACAC96D00884915 /* DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
 		F94F6F272ACAE85200884915 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		F94F6F2D2ACC2ED000884915 /* Circle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Circle.xib; sourceTree = "<group>"; };
 		F94F6F2F2AD41FC600884915 /* MainCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellModel.swift; sourceTree = "<group>"; };
@@ -190,8 +190,7 @@
 				F94F6EE42ABCF5F200884915 /* Assets.xcassets */,
 				F94F6EE62ABCF5F200884915 /* LaunchScreen.storyboard */,
 				F94F6EE92ABCF5F200884915 /* Info.plist */,
-				F94F6F252ACAC96D00884915 /* miss2.swift */,
-				F94F6F0B2AC0F4FE00884915 /* miss.storyboard */,
+				F94F6F252ACAC96D00884915 /* DismissKeyboard.swift */,
 				F94F6F2F2AD41FC600884915 /* MainCellModel.swift */,
 				6D4014D42AD5336B00695C2C /* CalculatorViewController.swift */,
 				6D4014D62AD55E3500695C2C /* SaveNameViewController.swift */,
@@ -200,6 +199,7 @@
 				F96930902ADF876300414885 /* SaveNameViewDelegate.swift */,
 				F96930942AE13D7800414885 /* ItemSizeModel.swift */,
 				F96930962AF1B4F000414885 /* ConfirmationScreenViewController.swift */,
+				F94F6F0B2AC0F4FE00884915 /* sab.storyboard */,
 			);
 			path = memotaku;
 			sourceTree = "<group>";
@@ -376,7 +376,7 @@
 			files = (
 				F94F6EE82ABCF5F200884915 /* LaunchScreen.storyboard in Resources */,
 				F94F6EE52ABCF5F200884915 /* Assets.xcassets in Resources */,
-				F94F6F0C2AC0F4FE00884915 /* miss.storyboard in Resources */,
+				F94F6F0C2AC0F4FE00884915 /* sab.storyboard in Resources */,
 				F94F6EE32ABCF5F100884915 /* Main.storyboard in Resources */,
 				F94F6F102AC5173600884915 /* MainTableViewCell.xib in Resources */,
 				F94F6F2E2ACC2ED000884915 /* Circle.xib in Resources */,
@@ -525,7 +525,7 @@
 				F94F6F302AD41FC600884915 /* MainCellModel.swift in Sources */,
 				F94F6F322AD42EEC00884915 /* TableViewCellDelegate.swift in Sources */,
 				F94F6F0F2AC5173600884915 /* MainTableViewCell.swift in Sources */,
-				F94F6F262ACAC96D00884915 /* miss2.swift in Sources */,
+				F94F6F262ACAC96D00884915 /* DismissKeyboard.swift in Sources */,
 				F96930972AF1B4F000414885 /* ConfirmationScreenViewController.swift in Sources */,
 				F94F6F122ACA0DA500884915 /* Calculator.swift in Sources */,
 				6D4014D72AD55E3500695C2C /* SaveNameViewController.swift in Sources */,
@@ -719,7 +719,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HWN9L6H4F8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = memotaku/Info.plist;
@@ -752,7 +752,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HWN9L6H4F8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = memotaku/Info.plist;

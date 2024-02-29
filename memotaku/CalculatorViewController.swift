@@ -27,6 +27,7 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
     
     private let calculator = Calculator()
     
+    //各ラベル等の実装
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var saveButton: UIButton!
     
@@ -41,6 +42,10 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
     override func viewDidLoad() {
             super.viewDidLoad()
         
+        //DismissKeyboard
+        setDismissKeyboard()
+        
+        //mainCellから受け渡し
         itemHeightField.text = mainCellData.itemSizeModel?.itemHeight
         itemWidthField.text = mainCellData.itemSizeModel?.itemWidth
         itemWeightField.text = mainCellData.itemSizeModel?.itemWeight
@@ -51,10 +56,15 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
         
         }
     
+    
+    
+    
     @IBAction func presentedSaveName(_ sender: Any) {
         performSegue(withIdentifier: "toSaveName", sender: nil)
     }
     
+    
+    //電卓機能
     @IBAction func clear(_ sender: Any) {
         calculator.clear()
         resultLabel.text = calculator.resultText
@@ -173,7 +183,7 @@ class CalculatorViewController: UIViewController, SaveNameViewDelegate {
         return itemSize
     }
     
-    
+    //値の受け渡し
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toSaveName" {
             let nextView = segue.destination as! SaveNameViewController
